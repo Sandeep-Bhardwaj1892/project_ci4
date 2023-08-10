@@ -17,27 +17,27 @@
 
 <form>
      <div class="form-group">
-    <input type="text" class="form-control" id=""  placeholder="Enter First Name">
+    <input type="text" name="first_name" class="form-control" id=""  placeholder="Enter First Name">
     </div>
 
      <div class="form-group">
-     <input type="text" class="form-control" id="" placeholder="Enter Last Name">
+     <input type="text" name="last_name" class="form-control" id="" placeholder="Enter Last Name">
      </div>
 
      <div class="form-group">
-       <input type="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Entet Email">
+       <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Entet Email">
     </div>
 
     <div class="form-group">
-      <input type="text" class="form-control" id="" placeholder="Phone">
+      <input type="text" name="phone" class="form-control" id="" placeholder="Phone">
     </div>
 
     <div class="form-group">
-      <input type="password" class="form-control" id="" placeholder="Password">
+      <input type="password" name="password" class="form-control" id="" placeholder="Password">
     </div>
 
     <div class="form-group">
-      <input type="confirmpassword" class="form-control" id="" placeholder="Confirm Password">
+      <input type="confirmpassword" name="confirmpassword" class="form-control" id="" placeholder="Confirm Password">
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
