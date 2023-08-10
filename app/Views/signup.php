@@ -4,43 +4,94 @@
 <div class="container">
   <div class="row">
     <div class="col">
-     <p>The Dark Room, the Guide, Waiting for the Mahatma and The Man Eater of
-      Malgudi Raja Rao is a good short story writer and has written only four
-       novels but they are significant. They include Kanthapura, The Serpent
-        and the Rope, and The Cat and Shakespeare. Besides the legendary and 
-        hugely venerated Indian English literary personalities like Rabindranath Tagore 
-        or R K Narayan, later novelists like Kamala Markandaya</p>
+    
+
+      <div class="card" style="width: 18rem;">
+      <img class="card-img-top"  src="<?php echo base_url('/pic/picture1.jpg');?>"  alt="Card image cap">
+      <div class="card-body">
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      </div>
+     
       
     </div>
     <div class="col-5">
     <h1>Signup Page</h1>
 
-<form>
-     <div class="form-group">
-    <input type="text" name="first_name" class="form-control" id=""  placeholder="Enter First Name">
-    </div>
+    <?php if (isset($validation)) : ?>
+        <div class="col-12">
+            <div class="alert alert-danger" role="alert">
+                <?=$validation->listErrors()?>
+            </div>
+        </div>
+       <?php endif; ?>
 
-     <div class="form-group">
-     <input type="text" name="last_name" class="form-control" id="" placeholder="Enter Last Name">
-     </div>
 
-     <div class="form-group">
-       <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Entet Email">
-    </div>
 
-    <div class="form-group">
-      <input type="text" name="phone" class="form-control" id="" placeholder="Phone">
-    </div>
+       <?php if (isset($Flash_message)) : ?>
+        <div class="col-12">
+            <div class="alert alert-success" role="alert">
+               Congratulations ! Registration successfully
+            </div>
+        </div>
+       <?php endif; ?>
 
-    <div class="form-group">
-      <input type="password" name="password" class="form-control" id="" placeholder="Password">
-    </div>
 
-    <div class="form-group">
-      <input type="confirmpassword" name="confirmpassword" class="form-control" id="" placeholder="Confirm Password">
-    </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+
+
+       <form action="/signup" method="post">
+
+
+<div  class="form-group">
+    <!-- <label for="firstName">First Name</label> -->
+    <input type="text" name="first_name" class="form-control" id=""  value="<?= set_value('first_name')?>" placeholder="First Name">
+    
+</div>
+
+<div class="form-group">
+    <!-- <label for="lastName">Last Name</label> -->
+    <input type="text" name="last_name" class="form-control" id="" value="<?= set_value('last_name')?>" placeholder="Last Name">
+    
+</div>
+
+
+
+<div class="form-group">
+    <!-- <label for="Email">Email address</label> -->
+    <input type="email" name="email" class="form-control" id="" value="<?= set_value('email')?>" placeholder="Enter Email">
+    
+</div>
+
+<div class="form-group">
+    <!-- <label for="Phone">Phone No</label> -->
+    <input type="text" name="phone" class="form-control" id="" value="<?= set_value('phone')?>" placeholder="Phone NO">
+</div>
+
+
+<div class="form-group">
+    <!-- <label for="Password">Password</label> -->
+    <input type="password" name="password" class="form-control" id=""  placeholder="Password">
+</div>
+
+
+<div class="form-group">
+    <!-- <label for="Password">Confirm Password</label> -->
+    <input type="password" name="confirm_password" class="form-control" id="" placeholder="Confirm Password">
+</div>
+
+
+
+
+<button type="submit" class="btn btn-primary">Submit</button>
+   
+<br><br><p ><a href="#">Back to Login page </a></p>
+                
+ 
+
 </form>
     </div>
     
