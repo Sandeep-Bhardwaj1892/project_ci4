@@ -1,4 +1,5 @@
 <?php echo view('includes/header');?>
+
 <section>
 
 <div class="container">
@@ -6,12 +7,19 @@
     <div class="col">
     
 
-      <div class="card" style="width: 18rem;">
+      <!-- <div class="card" style="width: 18rem;">
       <img class="card-img-top"  src="<?php echo base_url('/pic/picture1.jpg');?>"  alt="Card image cap">
-      <div class="card-body">
+       <div class="card-body">
          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      </div>
+      </div> -->
+
+
+      <div class="card bg-dark text-white">
+  <img class="card-img" src="<?php echo base_url('/pic/picture1.jpg');?>" height="500px" alt="Card image">
+  
+</div>
+      
      
       
     </div>
@@ -88,7 +96,7 @@
 
 <button type="submit" class="btn btn-primary">Submit</button>
    
-<br><br><p ><a href="#">Back to Login page </a></p>
+<br><br><p >Back to Login page</p>
                 
  
 
@@ -102,4 +110,5 @@
      
 
 </section>
+
 <?php echo view('includes/footer');?>

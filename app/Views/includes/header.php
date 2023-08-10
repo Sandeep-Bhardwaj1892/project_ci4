@@ -58,7 +58,7 @@
             margin: 5px 0;
             height: 55px;
             line-height: 36px;
-            padding: .4rem .65rem;
+            padding: .4rem 1.65rem;
             text-align: center;
         }
         header li.menu-item a:hover,
@@ -156,7 +156,7 @@
             text-align: center;
         }
         footer .environment {
-            color: rgba(255, 255, 255, 1);
+            color: rgba(255, 255, 255, 0.5);
             padding: 2rem 1.75rem;
         }
         footer .copyrights {
@@ -191,6 +191,7 @@
                 background-color: rgba(221, 72, 20, .7);
                 color: rgba(255, 255, 255, .8);
             }
+           
         }
     </style>
 </head>
@@ -218,12 +219,12 @@
            
     </div>
 
-    <div class="heroe">
+    <!-- <div class="heroe">
 
         <h3>Welcome my new projct</h3>
 
        
-    </div>
+    </div> -->
 
 </header>
  
