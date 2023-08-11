@@ -39,16 +39,16 @@
 
 <div class="form-group">
     <!-- <label for="Password">Password</label> -->
-    <input type="password" name="password" class="form-control" id=""  placeholder="Password">
+    <input type="password" name="password" class="form-control" id="" value="" placeholder="Password">
 </div>
 
 
 
 
 
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary">Login</button>
    
-<br><br><p > Signup page</p>
+<br><br><p > <a href="#"> Signup page</a></p>
                 
  
 
