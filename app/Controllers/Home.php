@@ -61,6 +61,14 @@ class Home extends BaseController
       return view('signup',$data);
   }
      
+  
+  
+  public function dashboard()
+  {
+      return view('dashboard');
+  }
+
+
 
     
 }

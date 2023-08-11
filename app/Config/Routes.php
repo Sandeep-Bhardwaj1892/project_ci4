@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 //$routes->match(['get','post'],'signup','Home::signup',['filter'=>'noauth']);
 $routes->match(['get','post'],'signup','Home::signup');
+$routes->get('dashboard', 'Home::dashboard');
 
 /*
  * --------------------------------------------------------------------

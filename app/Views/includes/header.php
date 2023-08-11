@@ -136,7 +136,7 @@
             display: block;
         }
         section a {
-            color: rgba(221, 72, 20, 1);
+            color: rgb(43 28 163);
         }
         section svg {
             margin-bottom: -5px;
@@ -152,17 +152,23 @@
             padding-top: 0;
         }
         footer {
-            background-color: rgba(221, 72, 20, .8);
+            background-color: rgba(224, 242, 241, 0.8);
             text-align: center;
+            
+            
+            
+
         }
         footer .environment {
-            color: rgba(255, 255, 255, 0.5);
-            padding: 2rem 1.75rem;
+            color: rgba(0, 0, 0, 1);
+            padding: 0.2rem 1.75rem;
         }
         footer .copyrights {
             background-color: rgba(62, 62, 62, 1);
             color: rgba(200, 200, 200, 1);
             padding: .25rem 1.75rem;
+            
+            
         }
         @media (max-width: 629px) {
             header ul {
@@ -212,7 +218,7 @@
             <li class="menu-item hidden"><a href="#" target="_blank">Contect</a></li>
             <li> <form class="form-inline my-2 my-lg-0">
            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
            </form></li>
                     
         </ul>

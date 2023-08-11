@@ -7,13 +7,6 @@
     <div class="col">
     
 
-      <!-- <div class="card" style="width: 18rem;">
-      <img class="card-img-top"  src="<?php echo base_url('/pic/picture1.jpg');?>"  alt="Card image cap">
-       <div class="card-body">
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      </div> -->
-
 
       <div class="card bg-dark text-white">
   <img class="card-img" src="<?php echo base_url('/pic/picture1.jpg');?>" height="500px" alt="Card image">
